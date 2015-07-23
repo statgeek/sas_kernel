@@ -2,7 +2,7 @@
 ---
 GLOBAL:
    processing:
-      auto-submit : on
+      auto-submit : off
    checks:
       Attrib: off
       Code-Review : on
@@ -10,7 +10,6 @@ GLOBAL:
       Encoding: off
       EOL : on
       Issue-Tracking : on
-      Template-ERB-Review: off
    validator-opts:
       Encoding:
          gitattribute-check-level: 1
